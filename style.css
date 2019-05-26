@@ -1,0 +1,25 @@
+*{
+    font-family: "open sans";
+}
+.div-principal{
+    display: flex;
+    background: linear-gradient( #2c3e50, rgba(127, 127, 199, 0.1));
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+}
+.div-secundario{
+    background-color: white;
+    height: 50px;
+    padding: 5% 10%;
+    box-shadow: 5px 10px purple;
+    transition: all 0.5s
+}
+.div-secundario:hover{
+    background-color: purple;
+    color: white;
+    transform: translate(5px,5px);
+    box-shadow: -10px -10px white;
+}

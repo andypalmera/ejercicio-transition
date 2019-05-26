@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    background-image: url("imagen/evans_744255.jpg");
+    width: 250px;
+    height: 400px; 
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    overflow: hidden;
+
+} 
+.overlay{
+   height: 100%;
+   font-family:  'Numans', sans-serif;
+   display: flex;
+   align-items: center;
+   background-image: linear-gradient(rgba(255,0,0,0.2),rgba(255,0,0,0.2));
+   transform: translatey(400px);
+}
+p{
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+.card:hover .overlay{
+    transform: translatey(0);
+    transition: all 2s;
+}

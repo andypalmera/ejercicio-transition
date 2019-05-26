@@ -1,0 +1,30 @@
+.card{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-image: url("imagen/impresion-sol-naciente-l.jpg");
+    background-position: center;
+    overflow: hidden;
+    background-size: cover
+}
+.overlay{
+    height: 100%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    transition: all 2s;
+}
+.card:hover .overlay{
+    /* solo funciona si es hijo directo de card */
+    transform: translateY(-200px);
+    background-color: rgba(255, 192, 203,0.5);
+}
+p{
+    position: relative;
+    top: 30%;
+    margin-top: 0;
+    text-align: center;
+    font-family:  'Numans', sans-serif; 
+    font-style: oblique;
+    color: white 
+}
